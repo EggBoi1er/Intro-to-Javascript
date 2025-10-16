@@ -11,11 +11,21 @@ numbers[1] = 14
 ...
 
 */ 
+// for (let index = 0; index < numbers.length; index++) {
+//     if(numbers[index] >= 15) {
+//         break;
+//         console.log("I am here");
+        
+//     }
+    
+// }
+
+
 for (let index = 0; index < numbers.length; index++) {
     if(numbers[index] >= 15) {
-        break;
-        console.log("I am here");
+        continue;
+        
         
     }
-    
+    console.log(numbers[index]);
 }
