@@ -20,12 +20,12 @@ const funcName = (para1, para2) => {
 1. zero parameter
 const funcName = () => {....}
 
-2. one parameter
+2. one parameter (parenthesis are optional)
 const funcName = (para1) => {....}
         OR
 const funcName = para1 => {....}
 
-3. two or more parameter
+3. two or more parameter (parenthesis are required)
 const funcName = (para1, para2, para3) => {....}
 
 4. single line block: DO NOT need {} and NO return keyword
