@@ -43,16 +43,4 @@ let z = "10"
 console.log(x + y); // true + 10 = 1 + 10 = 11
 console.log(x + z); //true + "10" = "true" + "10" = "true10"
 console.log((y + z) - 10); // (10 + "10") - 10 = ("10" + "10") - 10 = "1010" - 10 = 1010 - 10 = 1000
-console.log(x + y + z); // true + 10 + "10" = 1 + 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(x + y + z); // true + 10 + "10" = 1 + 10 + "10" = 11 + "10" = "1110"

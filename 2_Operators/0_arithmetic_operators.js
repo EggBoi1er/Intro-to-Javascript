@@ -23,4 +23,3 @@ number *= 3; // 12
 ++number; // 13 increments first then returns the value
 --number; // 12 decrements first then returns the value
 console.log(number);
-
