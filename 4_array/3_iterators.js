@@ -43,8 +43,8 @@ console.log(flatArray); // (100, 2, 3, 4)
 
 
 const students = {
-    {name:'Alex', age; 21},
-    {name:'Sam', age; 18}
+    name:'Alex', age: 21,
+    name:'Sam', age: 18
 }
 
 const groupStudentsByAge = students.reduce((accum, student) => {
